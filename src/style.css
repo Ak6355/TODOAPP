@@ -1,0 +1,32 @@
+body{
+    background: rgb(0, 0, 0);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.todo-container{
+    width: 400px;
+    padding: 40px 50px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(194, 248, 220);
+    border: radius 50px;
+}
+.todo-item{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(233, 183, 232);
+
+
+}
+.todo-button{
+    width: 100% ;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border : none;
+    font-weight: bold;
+    background-color: rgb(245, 223, 171);
+   
+}
